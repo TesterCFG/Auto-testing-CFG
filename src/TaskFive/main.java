@@ -1,10 +1,8 @@
 package TaskFive;
 
-import org.junit.Test;
-
 import java.util.Date;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class main {
     public static void main(String[] args) {
@@ -17,10 +15,10 @@ public class main {
         Date current3 = new Date(105, 5, 4, 12, 15, 0);
         System.out.println(current3);
 
-            String expected = "3.1415";
-            String actual = "3";
+        String expected = "3.1415";
+        String actual = "3";
 
-            assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
 
